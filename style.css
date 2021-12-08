@@ -1,8 +1,30 @@
+:root {
+    --primary-color: #a00c0c;
+}
+
 body {
     text-align: center;
+    background-image: url("money.jpg");
+    background-size: 100%;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 20%;
 }
 
 label {
     display: block;
     padding-bottom: 2rem;
+}
+
+header {
+    color: var(--primary-color);
+}
+
+button {
+    font-size: large;
+    background-color: #ee5050;
+}
+
+button:hover {
+    background-color: #047857;
 }

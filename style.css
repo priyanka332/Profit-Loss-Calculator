@@ -17,7 +17,7 @@ label {
     margin-bottom: -2%;
     margin-top: 3%;
     font-size: x-large;
-    color: #5aeebd;
+    color: var(--primary-color);
 }
 
 header {
@@ -48,5 +48,11 @@ input {
     text-align: center;
     margin-top: 3%;
     font-size: x-large;
-    color: #104933;
+    color: #fffdfd;
+    border: 2px solid var(--primary-color);
+    background-color: #f03d3d;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    margin: 1rem 15rem;
+    border-radius: 2rem;
 }

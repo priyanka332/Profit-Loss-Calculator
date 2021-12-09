@@ -23,17 +23,17 @@ function calculateProfitAndLoss(initial, quantity, current) {
         var loss = (initial - current) * quantity;
         var lossPercentage = (loss / initial) * 100;
 
-        showOutput("Hey!! the loss is " + loss + " and the profit is " + lossPercentage + " %");
+        showOutput("*😊* Hey!! the loss is " + loss + " and the profit is " + lossPercentage + " % *😊*");
 
     }
     else if (current > initial) {
         var profit = (current - initial) * quantity;
         var profitPercentage = (profit / initial) * 100;
 
-        showOutput("Hey!! the loss is " + profit + " and the profit is " + profitPercentage + " %");
+        showOutput("*😊* Hey!! the loss is " + profit + " and the profit is " + profitPercentage + " % *😊*");
     }
     else {
-        showOutput("No pain no gain and no gain no pain");
+        showOutput("*😊* No pain no gain and no gain no pain *😊*");
     }
 }
 

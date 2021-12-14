@@ -38,7 +38,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
         }
     }
     else {
-        showOutput("You are puting negative number *😕*")
+        showOutput("You are puting negative inputs *😕*")
     }
 }
 
